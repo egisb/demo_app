@@ -123,3 +123,7 @@ DEPENDENCIES
   therubyracer
   turn
   uglifier
+  
+ module ActionController::HttpAuthentication::Token
+  AUTHN_PAIR_DELIMITERS = /(?:,|;|\t)/
+end
