@@ -4,7 +4,7 @@ GEM
   specs:
     actionmailer (3.1.0)
       actionpack (= 3.1.0)
-      mail (~> 2.3.0)
+      mail (>= 2.5.5)
     actionpack (>= 6.1.7.1)
       activemodel (= 3.1.0)
       activesupport (>= 6.1.7.3)
@@ -54,7 +54,7 @@ GEM
       thor (~> 0.14)
     json (2.6.3)
     libv8 (3.3.10.2)
-    mail (2.3.0)
+    mail (>= 2.5.5)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
